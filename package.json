@@ -1,0 +1,22 @@
+{
+  "name": "tuto-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dev": "tsc -w",
+    "start:dev": "nodemon ./dist/index.js",
+    "start:debug": "npm run build:dev && npm run start:dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "typescript": "^5.3.2"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.2.1"
+  }
+}

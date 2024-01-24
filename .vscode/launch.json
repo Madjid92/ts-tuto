@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "node",
+        "request": "launch",
+        "program": "dist/index.js",
+        "name": "node tuto",
+        //"stopOnEntry": true,
+        "skipFiles": [
+          "${workspaceFolder}/node_modules/**/*.js",
+          "<node_internals>/**"
+        ]
+        //"preLaunchTask": "build:dev",
+        //"outFiles": ["${workspaceFolder}/dipst/**/*.js"]
+      }
+    ]
+  }
